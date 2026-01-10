@@ -21,6 +21,9 @@ mask = mask1 + mask2  # 두 개의 마스크를 합침
 # 원본 이미지에서 빨간색 부분만 추출
 result = cv2.bitwise_and(image, image, mask=mask)
 
+# 결과 이미지 저장
+cv2.imwrite('../output/result.jpg', result)
+
 # 결과 이미지 출력
 cv2.imshow('Original', image)
 cv2.imshow('Red Filtered', result)
