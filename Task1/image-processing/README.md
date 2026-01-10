@@ -12,7 +12,7 @@
 
 ## 파일 구조
 
-* `image-processing/src/color\_filter.py` : 이미지 처리 메인 스크립트
+* `image-processing/src/color_filter.py` : 이미지 처리 메인 스크립트
 * `image-processing/data/sample.jpg` : 분석에 사용된 원본 이미지
 
 ---
