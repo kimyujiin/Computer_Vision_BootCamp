@@ -47,7 +47,7 @@ python main.py
 ![Depth Map](./output/result_depth.jpg)
 
 * 3D 시각화
-: 생성된 `result_3d.obj` 파일을 3DViewer.net 등의 온라인 뷰어에 업로드하여 확인합니다.
+: 생성된 `result_3d.obj` 파일을 [3DViewer.net](https://3dviewer.net/) 온라인 뷰어에 업로드하여 확인합니다.
 
 ## 결과 분석
 
@@ -55,4 +55,4 @@ python main.py
 : 현재는 밝기 기반 역산 방식을 사용하므로 조명과 재질에 따라 실제 거리와 오차가 발생할 수 있습니다.
 
 * 기술적 대안
-: 더욱 정확한 측정을 위해 **MiDaS (AI 모델)** 나 **LiDAR / ToF 센서** 활용, 또는 **기하학적 분석 (소실점 계산)** 방식을 고려할 수 있습니다.
+: 더욱 정확한 측정을 위해 **MiDaS (AI 모델)** 나 **LiDAR / ToF 센서** 활용, 또는 **기하학적 분석 (소실점 계산)** 방식 등을 고려할 수 있습니다.
