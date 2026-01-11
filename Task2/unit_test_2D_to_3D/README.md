@@ -39,9 +39,11 @@ python main.py
 ## 결과 화면
 
 * 원본
+
 ![원본 이미지](./data/sample.jpg)
 
 * Depth Map
+
 ![Depth Map](./output/result_depth.jpg)
 
 * 3D 시각화
