@@ -23,6 +23,7 @@
 ---
 
 ## 실행 방법
+
 1. 관련 라이브러리 설치 :
 ```bash
 pip install datasets pillow numpy
@@ -36,14 +37,19 @@ python image_preprocessing.py
 ---
 
 ## 결과 화면
-- 원본
+
+* 원본
+
+| 1 | 2 | 3 |
 | :---: | :---: | :---: |
 | ![원본 이미지 0](./data/raw_0.jpg) | ![원본 이미지 1](./data/raw_1.jpg) | ![원본 이미지 2](./data/raw_2.jpg) |
 
+| 4 | 5 |
 | :---: | :---: |
 | ![원본 이미지 3](./data/raw_3.jpg) | ![원본 이미지 4](./data/raw_4.jpg) |
 
-- 전처리
+*전처리
+
 | 전처리 | 밝게 | 어둡게 |
 | :---: | :---: | :---: |
 | ![전처리 이미지 0](./preprocessed_samples/prep_0.jpg) | ![전처리 이미지 1](./preprocessed_samples/prep_1_bright.jpg) | ![전처리 이미지 2](./preprocessed_samples/prep_2_dim.jpg) |
