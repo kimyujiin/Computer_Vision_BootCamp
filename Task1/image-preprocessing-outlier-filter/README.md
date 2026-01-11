@@ -28,7 +28,7 @@
 ```bash
 pip install datasets pillow numpy
 ```
-2. 스크립트 실행 :
+2. 소스 코드 실행 :
 ```bash
 # src 폴더로 이동 후 실행
 python image_preprocessing.py
