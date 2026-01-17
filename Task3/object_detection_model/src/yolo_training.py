@@ -1,3 +1,4 @@
+# YOLOv8을 활용한 객체 탐지 모델 학습
 from ultralytics.utils.downloads import download
 from pathlib import Path
 from ultralytics import YOLO
@@ -9,7 +10,6 @@ def down_image():
 
 	print("--- 다운로드 완료! 이제 폴더를 확인해 보세요 ---")
 
-# YOLOv8을 활용한 객체 탐지 모델 학습
 def yolo():
 	model = YOLO("yolov8n.pt")  #YOLOv8 모델 로드
 	model.train(data="data.yaml", epochs=5, imgsz=640)  # 사용자 데이터셋으로 학습
