@@ -10,7 +10,7 @@ results = model.train(
 	imgsz=640,  # 이미지 크기
 	batch=-1,  # 한 번에 학습할 이미지 개수 (최적 배치 사이즈)
 	name='nut_defect_model',  # 결과가 저장될 폴더 이름
-	device=0  # T4 GPU
-	patience = 20  # 성능 향상이 없으면 20회 후에 조기 종료
+	device=0,  # T4 GPU
+	patience = 20,  # 성능 향상이 없으면 20회 후에 조기 종료
 	augment = True  # 학습 중 무작위 변환을 추가해 일반화 성능 강화
 )
