@@ -1,0 +1,10 @@
+# data.yaml
+path: ../data/dataset  # 데이터셋 루트 경로
+train: images/train  # 학습용 이미지 경로
+val: images/val  # 검증용 이미지 경로
+
+# 클래스 이름 설정
+nc: 2
+names:
+  0: normal
+  1: defect
